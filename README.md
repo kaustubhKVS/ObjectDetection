@@ -6,12 +6,12 @@ RCNNs have a seperate region proposal network RPN while yolo doesnt and hence is
 
 ## How to 
 
-Train
+<li> Train </li>
 
 Assign appropriate values to all variables in the config.json file <br>
 run python train.py -c path-to-config in any terminal
 
 
-## Predict
+<li> Predict </li>
 
 run python predict.py --conf 'path to configuration file' --weights 'path to pretrained weights'--input 'path to an image or an video (mp4 format)' in any terminal
